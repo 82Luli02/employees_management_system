@@ -24,23 +24,28 @@ The primary aim of this program is to implement a linked list and to practice re
 
 ### Implementation
 The menu is handled by do while and switch statement.
+
 The Methods to be implemented are as follows:
+
 
 1. INSERT EMPLOYMENT
 
 This method will add a new employee to the list.
 It takes 3 parameters (employee name, id, and salary).
 
+
 2. DISPLAY ALL EMPLOYMENTS
 
 This method will display all the employee records.
+
 
 3. FIND EMPLOYMENT INFO ID
 
 This method will search for an employee with his/her id.
 If the employee is found it will print her/his record to the output.
 If the employee is not found it will print “There is no record of this employee in
-this system”
+this system”.
+
 
 4. DELETE EMPLOYMENT id
 
@@ -49,9 +54,11 @@ have to iterate over the linked list of employees you created and delete the
 employee (node). If the employee is not found, the method will print “There is no
 employee with the id "#######" in the system.”.
 
+
 5. SEARCH HIGHEST SALARY
 
 This method will print the information of the employee with the highest salary.
+
 
 6. REVERSE DISPLAY ALL EMPLOYMENTS
 
