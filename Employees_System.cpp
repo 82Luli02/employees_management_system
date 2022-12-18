@@ -2,10 +2,11 @@
 
 using namespace std;
 
-/*
- * Name: Alia AlGhamdi
- * EMAIL: 82Luli02@gmail.com
- */
+ /**
+ *
+ * Done by: Alia AlGhamdi
+ *
+ **/
  
 class Employee{
 
@@ -256,7 +257,7 @@ int main(){
 
         switch (inputNum) {
         case 1:
-            cout  <<"\n**INSERTEMPLOYMENT**\n";
+            cout  <<"\n**INSERT EMPLOYMENT**\n";
             cout << "\nEnter Employee Name: ";
             cin.ignore();   //To ignore white spaces 
             getline(cin, name);
@@ -269,7 +270,7 @@ int main(){
             break;
             
         case 2:
-            cout << "\n**FINDEMPLOYMENTINFO ID**\n";
+            cout << "\n**FIND EMPLOYMENT INFO ID**\n";
             
             if (empList->getHead() != NULL) { //To check if list is not empty
                 cout << "Enter Employee id: ";
@@ -284,7 +285,7 @@ int main(){
             break;
             
         case 3:
-            cout <<"\n**DELETEEMPLOYMENT ID**\n";
+            cout <<"\n**DELETE EMPLOYMENT ID**\n";
 
             if (empList->getHead() != NULL) { //To check if list isn't empty
                 
@@ -300,7 +301,7 @@ int main(){
             break;
             
         case 4:
-            cout << "\n**SEARCHHIGHESTSALARY**\n";
+            cout << "\n**SEARCH HIGHEST SALARY**\n";
             
             if (empList->getHead() != NULL) { //To chek if list is not empty
                 empList->searchHightSalary();
@@ -313,7 +314,7 @@ int main(){
             break;
             
         case 5:
-            cout  << "\n**DISPLAYALLEMPLOYMENTS**\n\n";
+            cout  << "\n**DISPLAY ALL EMPLOYMENTS**\n\n";
 
             if (empList->getHead() != NULL) { //To chek if list is not empty
                 empList->displayAllEmployement();
@@ -326,7 +327,7 @@ int main(){
             break;
             
         case 6:
-            cout << "\n**REVERSEDISPLAYALLEMPLOYMENTS**\n";
+            cout << "\n**REVERSE DISPLAY ALL EMPLOYMENTS**\n";
             
             if (empList->getHead() != NULL) { //To chek if list is not empty
                 Employee* temp = empList->getHead();
